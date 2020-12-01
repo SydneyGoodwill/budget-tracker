@@ -18,7 +18,7 @@ self.addEventListener('install', function(event) {
       console.error(err);
     })
   );
-  event.skipWaiting();
+  self.skipWaiting();
 });
 
 self.addEventListener("activate", function(event) {
