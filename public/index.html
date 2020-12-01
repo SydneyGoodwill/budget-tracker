@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
-  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="manifest" href="manifest.webmanifest">
 
   <title>Budget Tracker</title>
 </head>
@@ -52,7 +52,8 @@
         .then((reg) => {
           console.log('Got a service worker: ', reg);
         })
-      })
+        .catch(error => console.log("service worker register erro: ", error));
+      });
     }
   </script>
 </body>
