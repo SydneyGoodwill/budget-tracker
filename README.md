@@ -34,5 +34,5 @@
   You may contact me here with any further questions: sydneyjogoodwill@gmail.com
 
   ## Author
-  Sydney Goodwill 
+  Sydney Goodwill  
 
